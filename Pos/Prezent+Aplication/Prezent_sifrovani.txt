@@ -1,0 +1,49 @@
+http://mis.e-mis.cz/index.php/Princip_%C5%A1ifrov%C3%A1n%C3%AD
+
+Symetrické  	- ode a pøíjem mají stejný klíè na šifrování a dešifrování
+		- jednorázové klíèe
+
+		- ménì výpoèetnì nároèné
+		- složitìjší pøedat kliè pøíjemci pøi navázání komunikace
+
+Asymetrické 	- dva klíèe
+		- odesílatel má veøený, lechce dostupný klíè
+		- vlastník má soukromý
+		- na rozšifrování soukromého je zapotøebí veøejný a naopak
+
+		- jednoduší pøed mùj veøejný
+		- vyšší ryziko obdržení falešného klíèe
+		- nemusím klíè mnìnit
+		- klíè použitelný pro komunikaci s jakýmkoliv poètem poèítaèù
+		- autor zprávy nemùže popøít že zprávu poslal on (byla zašifrována JEHO soukromím klíèem)
+
+Využití 
+	-Asymetrická - zašifrování symetrického klíèe a otisk zprávy
+		- Vetší množství dat se poté šifruje symetrickou
+					
+
+TLS 	- Transport layer security
+	- implementuje èásti prezentaèní vrstvy
+	- pøi HTTP
+
+
+Symetrické
+	-DES
+		-délka klíèe 56 bitù(dnes nedostaèující)
+	-AES 
+		-délka klíèe(128, 192 nebo 256)
+		-Blokolvá šifra
+		-vybrána jako standart pro šifrování státíních dokumentù(usa)
+
+	-Serpent
+		-nároènìjší než AES
+		-pøišla ve druhém místì
+
+Asymetrické
+	-RSA
+		-základ SSL
+		-Malá Fermatova vìta (násobení velkých prvoèísel)
+
+Kódování - pøíprava zprávy na pøenos
+Šifrování - zaruèování, že nikdo jiný si zprávu nepøeète
+Hashování - 

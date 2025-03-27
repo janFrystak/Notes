@@ -1,0 +1,72 @@
+!router 1
+en
+conf t 
+enable secret cisco
+banner motd "Access restricted"
+hostname R1
+no ip domain-lookup
+!
+line con 0
+logging synchronous
+password cisco 
+login
+!
+!Gig
+int Gig0/0/0
+description Lan1
+ip address 172.16.0.1 255.255.0.0
+no shutdown
+!
+!Ser
+int Ser0/1/0
+ip address 172.16.1.1 255.255.0.0
+description R1-R2
+clock rate 12800
+no shutdown
+!
+!rip 
+router rip
+no auto-summary
+ver 2
+network 172.16.254.1
+passive-interface Gig0/0/0
+exit 
+end
+write
+
+
+!Router 2
+en 
+conf t
+hostname R2
+enable secret cisco
+banner motd "Access restricted"
+no ip domain-lookup
+!
+line con 0
+logging synchronous
+password cisco
+login
+!
+!Gig
+int Gig0/0/0
+description Lan2
+ip address 172.16.0.2 255.255.0.0
+no shutdown
+!
+!Ser
+int Ser0/1/0
+clock rate 128000
+description R2-R1
+ip address 172.16.1.2 255.255.0.0
+no shutdown
+!
+!rip 
+router rip 
+no auto-summary
+ver 2
+network 172.16.254.1
+passive-interface Gig0/1/0
+exit 
+end
+wr

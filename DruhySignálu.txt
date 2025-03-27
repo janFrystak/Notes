@@ -1,0 +1,49 @@
+Druhy signálu
+(fyzikální velièina, nositel informace)
+
+
+Analog
+	-libovolné hodnoty
+	-mùže se mìnit 
+
+Disktrétní
+	-diskrétní(omezený) v èase: zmìna hodnoty je možná pouze ve vybraných èasech
+		/
+	-diskrétní(omezený) v amplitudì: mùže nabývat pouze vybrané hodnoty
+
+Digitální
+	-diskrétní v obou
+
+
+----------
+Digitální
+	-pouze nìkterý hodnoty signálu jsou povoloné
+	-ostatní hodnoty indikují chybu v signálu
+		-chybu mùžeme opravit(zaokrouhlit)	
+			-èasto to nám dá správnou hodnotu, ale ne vždy
+
+Analogový 
+	-libovolná hodnota signálu, s èasem se mìní
+	
+	+jednoduché
+	+efektivní
+	-nelze detekovat chybu
+	-nelze opravit zkreslení
+
+Vstupní signály
+
+-Digitální
+	-signál se zpracovává, pøenáší a ukládá digitálnì
+		-nedochází ke zkreslení 
+-Analogový
+	-a. zpracován, pøenášen a ukládán analogovì(každá operace pøináší zkreslení)
+	-b. provedeme <digitalizaci> a dále pracuje s digitální podobou
+		(ke zkreslení dochází jenom pøi digitalizaci - mùže být nepøijatelné pro nìkteré aplikace)
+
+<Vzorkování>
+	-v pravidelných intervalech zmìøíme a zapíšeme hodnotu vstupního analogového signálu
+		-informace o prùbìhu signálu mezi intervaly ztrácíme
+<Diskretizace/Kvantování>
+	-hodnoty namìøené pøi vzorkování zapíšeme jako bity (s omezený poètem)
+		-toto "zaokrouhlí" k nejbližší diskrétní(používané, tady 0 1) hodnotì -> vzniká "kvantizaèní šum" (neukládáme pøesnou hodnotu ale tu nejbližší co mùžeme)
+	

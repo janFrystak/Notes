@@ -1,0 +1,32 @@
+spojově orientovaná komunikace
+1.Navážu spojení
+2.Najdu cestu k cíli a zapamatuju
+3.Podílám data
+4.Ukončím spojení
+
+
+datagramově orientovaná komunikace (první byly ARPANET)
+1.rozdělím data na menší segmenty(datagramy)
+2.označím každý s sílovou adresou a extra informacemi
+3.pošlu každý segment jednotlivě
+4.směrovací zařízení pro každý segment hledá cestu znova
+5.cílový počítač si data znovu seskupý
+	výhody: více datagramů může být posíláno přes jeden linku, bez toho aby jeden tu linku zaplnil
+	nevýhody: můžeme ztratit pořadí datagramů(některé linky jsou rychlejší než další)
+                  musíme každou část znovu směrovat(pomalejší)
+		  
+		------------____________
+		-_-_-_-_-_-_-_-_-_-_-_-_
+	
+
+Sítě s virtuálními kanály
+1.data rozdělíme na menší části
+2. na úvodní část napíšeme adresu cíle a identifikační klíč, na zbytek jen identifikační klíč
+3.odešleme, směrovací zařízení první část pošle na cílovou adresu a zapamatuje si identifikační klíč a jeho cestu
+4.následné části rozpozná podle identifikačního klíče a pošle je stejným spojem jako první část
+5.cílový počítač si data znovu seskupý
+
+
+
+
+

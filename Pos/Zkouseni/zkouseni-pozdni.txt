@@ -1,0 +1,41 @@
+Packet tracer
+
+router commands
+-
+
+
+
+
+
+
+
+UTP
+-copper straight-through - propojování jiných zaøízení
+-copper cross-over - pøipojování stejných zaøízení
+serial
+
+
+
+
+
+
+datagramové sítì- více souborù mùže být pøesouváno najenou pøes jednu linku
+		- šance duplikace
+		
+
+poèítaèe0 - 192.168.12.78
+	- 192.168.123.47
+	- maska 255.255.255.0
+	- privátní ip
+	-default - 255.168.12.0
+router0 - 192.168.0.1
+	- privátní
+
+
+poèítaèe1 - 192.168.12.58
+	- 192.168.123.96
+	- maska 255.255.255.0
+	- privátní ip
+	-default - 255.168.12.0
+router1 - 192.168.0.1
+	- privátní

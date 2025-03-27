@@ -1,0 +1,29 @@
+Smìrování 
+Co je smìrování?
+	-hledání zaøízení(next-hop), které je v naší síti a je schopno poslat zprávu dál, a k cíli
+
+Uivatel chce poslat datagram na koncové zaøízení
+	-zaøízení je v síti
+		-vyuijeme sluby linkové vrsty(musíme zjistit IP and Mac(ARP)
+	-zaøízení není v síti
+		-musíme poslat datagram s náleícími routovacími informacemi správnému sousedu
+	
+
+Co na to vyuíváme?
+	-routovací tabulky nebo ARB v lokální síti
+
+Jaké jsou druhy?
+	-Statické - adresy sousedních hopù jsou nastaveny správcem sítì
+			-správce mùe smìrování nastavit rychleji a efektivnìji vùèi dostupnım pøostøedkùm
+			-v pøípadì vypadu a zmìny cesty nereaguje na zmìny
+			-správce mùe v nastavení udìlat chybu, u vìtších sítí velká šance
+	-Dynamické - vyuit nìjakı protokol síové vrsty
+			 
+
+
+
+
+Jaké protokoly vyuíváme?
+	-RIP - jednoducı, vıpoèetnì nenároènı, hodí se jenom do menších sítí, na zmìny v cestì reaguje pomalu 
+	-OSPF - vıpoèetnì nároènìjší, ve vìtších sítích, reaguje na zmìny v cestì rychle, 
+	-BGP - pro sítì poskitovatelù a mezinárodní pøenosné sítì

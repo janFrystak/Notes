@@ -1,0 +1,28 @@
+Protokol ARP
+- v ipv4
+- ipv6 pouívá novìjší NDP (Neighbour discovery protocol)
+
+-vyuití:
+	-odesíláme ip datagram do stejné podsítì, má ip potøebuje mac
+		-broadcastem odešle ARP request všem úèastníkùm podsítì, obsahuje Hledanou Ip adresu, vlastní Ip a Mac
+		-tyto zaøízení si uloí Ip a Mac odesílatele
+		-hledaná Ip adresa pošle ARP reply, s vlastní IP a Mac
+
+- ARP packet
+	-Hardware type (HTYPE)
+		-protokolovı typ
+	-Protocol type (PTYPE)
+		-Ethertype
+	-Hardware length (HLEN), Protocol length (PLES)
+		-délka hardware adresy (6), délka protokol adresy (if ivp 4 -> 4)
+	-Operace (OPER)
+		-typ operace - 1->request : 2->reply
+	
+	-Sender of the hardware adress (SHA)
+		-Mediální adresa odesílatele
+	-Sender fo the protocol adress (SPA)
+		-Vnitøní síové adresy odesílatele
+	-End hardware adress (THA)
+		-Mediální adresa poadovaného pøijímaèe
+	-End protocol adress (TPA)
+		-Vnitøní adresa po. pøijímaèe

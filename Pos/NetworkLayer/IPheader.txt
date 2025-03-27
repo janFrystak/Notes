@@ -1,0 +1,40 @@
+Hlavièy protokolù ip																			Bajty
+
+IPv4
+verze - verze protokolu(4)																		}0	)
+IHL - dálka jako poèet 32 bitových slov																	}0	) 0 -3
+Typ služby(TOS) - mìl být schopen urèit charakter pøepravní služby ideální pro dotyèný datagram, v souèastnosti nese znaèku zajištující služby definované QoS		}1 	)
+délka - délka v bajtech	
+																	 	)2-3
+TTL - ochrana proti cyklaci, po každém pøechodu mezi routery se èíslo zmenší, na nule je zahozeno									}0	)
+èíslo protokolu - urèuje, kterému protokolu vyšší vrstvy se mají data pøedat pøi doruèení. Èísla protokolù bývaly definovány RFC 1700, dnes RFC 3232			}1	)0 - 3
+kontrolní souèet - souèet bitù hlavièky, ochrana proti požkozeným datagramùm												}2-3	)
+
+
+IPv6
+verze - verze protkolu(6)						}0-3	0-31
+tøída provzu - nemá definovanou funkci, podobné TOS			}4-11
+
+další hlavièka - umožòuje pøipínat další hlavièky o stejných délkách	}16-23	32-63
+maximum skokù - TTL							}24-31		
+
+
+
+
+
+
+
+
+verze 
+IHL
+TTS
+délka
+
+TTL
+èíslo protokolu
+kontroní souèet
+
+verze
+tøídda provozu
+další hlavièka
+maximum skokù

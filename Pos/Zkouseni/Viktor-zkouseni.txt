@@ -1,0 +1,31 @@
+4b5b - připíše jakoukoliv kombinaci na 4. bitů na 5 za účelem méně opakování tudíž lepšího čtení
+manchester - nevíhody: musím měnit signál 2x víckrát, lepší na přečtení měny signálu než stav signálu
+
+1. fyzická(data) - 	Dovoluje nám přenášet bity přes médium pomocí kódování a dekédování dat na sousední počítače 
+-[https://web.archive.org/web/20090618154921/http://www.erg.abdn.ac.uk/users/gorry/course/phy-pages/phy.html]
+
+2. linková(frame) - 	připravuje data na přeposlání fyzickou vrstvou, používá mac adresy
+			2.1 - kontrola chyb
+			2.2 - synchronizuje vysílání framů (na zažátek a konec souboru dá "flag", oznečení zahájení a konce přenosu)
+			2.3 - konroluje tok dat 
+			2.4 - řízení controly k sdílenému médiu
+
+		
+3. síťová(packet) - 	hledá cestu k cílovému zařízení 
+
+4. transportní(segment) -pokud posíláme více dat rozdělí je na menší úseky a poté se stará když se stratí nebo poškodí
+		určuje ke které aplikaci přijaté date patří (číslo portu)
+
+5. prezentačn - extra funkce (komprese, šifrování)
+
+6. relační - 	když navazujeme na předchozí komunikaci, pamatuje se předchozí
+
+7. aplikační - 	protokoly, které řeší potřeby uživatele a aplikací
+
+
+
+
+
+
+
+

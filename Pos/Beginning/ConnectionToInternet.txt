@@ -1,0 +1,19 @@
+Pøenosná rychlost
+Jitter
+Latency
+Symetry 
+Agregace
+FUP - omezení poslaných dat
+Stabilita - výrazný rozdíl mezi pøenosnou rychlostí a latencí
+
+Goodput - ideální - reklamovaná rychlost
+Throughtput - realná
+Bandwith - maximální
+
+xDSL - Pøipojení k nejbližší telefonní ústøednì pøes smyèku (PSTN)
+Wi-Fi - bezdrátové pøipojení
+Sítì mobilních operátorù - FUP
+Kabelová televize - (CATV)
+Pro firmy - vysoké pøenosové rychlosti, dražší, optické systémy, vlstní optická linka
+
+Satelit - poskitnutí pøipojení všude, vysoká latence

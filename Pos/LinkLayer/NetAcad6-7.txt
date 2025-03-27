@@ -1,0 +1,36 @@
+Paga la banka
+LLc 	- komunikace mezi vyšímy vrstvy a hardwarem na niších
+	- do framu pøídává informace jakı protokol síové vrstvy bude pro rámec pouit 
+
+MAC 	- (Media Access Control) - v hardwaru
+	- Enkapsulace dat a media acess conrol	
+
+Topologie
+
+Logická	-porty, ip adresy, podsítì
+
+	P2P - nejzákladnìjší WAN topologie, permanentní propojení dvou bodù
+	Mesh - vysoká dostupnost zaøízení, zapotebı propojit kadé zaízení s kadım, drahé
+	Hub&spoke - WAN verze hvìzdy, všechny data prochází støední jednotkou
+
+Physical - servery, switche a routery na polici
+
+	Star - 	S4862486486qqqqqq
+	Ring - zastaralé
+	Bus - zastaralé
+
+
+Full-duplex
+	-zaøízení mùou posílat data obìma smìry najednou
+
+Half-duplex
+	-obìma smìry ale ne najednou
+
+CSMA/CD
+CSMA/CA
+
+PPP - Point to point
+HDLC -
+Frame Relay -
+ARM -
+X.25 -

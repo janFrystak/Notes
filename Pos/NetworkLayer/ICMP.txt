@@ -1,0 +1,25 @@
+ICMP
+-slouží k odesílání služebních informací (chybové zprávy že služba není dostupná nebo že zaøízení není dostupné)
+-není pøímo používán aplikacemi, ale využinat na základì nìjaké události
+
+traceroute
+-odesílá UDP datagram se speciálnì nastavenou životností v a oèekává odezvu "Time to live exceeded in transit" nebo "Destination unreachable"¨
+-používán na zjištìní vadného spojení na cestì
+
+ping
+-poìle 4.bitový datagram pomocí [echo request] and oèekává zpávu o doruèení [echo reply]
+
+
+Some of the Destination Unreachable codes for ICMPv4 are as follows:
+
+0 - Net unreachable
+1 - Host unreachable
+2 - Protocol unreachable
+3 - Port unreachable
+Some of the Destination Unreachable codes for ICMPv6 are as follows:
+
+0 - No route to destination
+1 - Communication with the destination is administratively prohibited (e.g., firewall)
+2 – Beyond scope of the source address
+3 - Address unreachable
+4 - Port unreachable

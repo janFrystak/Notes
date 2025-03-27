@@ -1,0 +1,36 @@
+Souborový systém
+-Pevný desk -> posloupost stejnì dlouhých sektorù
+
+-ukládáme :	data (obsah souborù)
+		metadata (extra informace k datùm)
+
+formátování disku -> vytváøení souborového systému na log. oddílu
+
+Clucter
+-každý soubor zabírá min. 1 cluster, každý cluster zabírá min. 1 sector
+-obvykle 2-4 kB
+
+Žurnalování
+-vyhradím místo na disko, kam budu zapisovat jaké operace na disku provádím (žurnál)
+-napø. pøedtím než smažu soubor, nejdøív tuto operaci zapíšu, poté co ji splním, zapíšu úspìch operace
+ (nebo zápis o operaci smažu)
+
+-pøerušení operace(crachú: po znovu spuštìní poèítaèe zkontroluju žurnál, nedokonèené operace buï dokonèím(pokud možno)
+ nebo smažu nedokonèenou práci na disku (nedokonèený zápis do souboru)
+
+-žurnál není schopen vždy zachránit data, ale ujistí uchování(bezproblémivost) souborového systému
+
+
+Fs (vlastnosti)
+-max oddíl velikost
+-max soubor velikost
+-podpora nastavení práv
+-podpora images
+
+LVM
+
+RAID
+
+TRIM
+
+

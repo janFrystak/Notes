@@ -1,0 +1,38 @@
+- Které technologie a standardy jsou typicky vyuívány sítìmi WPAN?
+	-bluetooth, 802.15.1
+- Které technologie a standardy jsou typicky vyuívány sítìmi WLAN?
+	-802.11
+- Do které kategorie spadají bìné domácí Wi-Fi sítì?
+	-WLAN
+- Jaké je typické pouití technologie WiMAX?
+	-DLS
+- Jaké jsou aktuální nejbìnìjší verze standardu WLAN
+	-Wi-Fi 6 (802.11ax)
+	-Wi-Fi 7 (802.11be)
+- Která frekvenèní pásma jsou dostupná pro volné pouití bez nutnost registrace?
+	-2,4 a 5 Ghz
+- Co je Wi-Fi Alliance?
+	-Bez zisková skupina spoleèností pro vıvoj WLAN technologie
+- Co oznaèuje zkratka NIC?
+	-zozhraní pro pøipojení k WLAN
+- Co je SSID?
+	-wifi název
+- Jaké typy AP rozlišujeme?
+	-Autonomous a kontrolled
+- Jaké jsou vıhody Lightweight Access Point Protocol (LWAPP)?
+	-monost konfigurovat více AP z jednoho
+- Co platí o MIMO?
+	-více antén = více bandwith
+- Co je Tethering?
+	-propo
+- Jakı protokol je pouit pro øízení pøístupu ke sdílenému médiu ve WLAN?
+- Jaké parametry musíme nastavit pøi konfiguraci WLAN?
+- Co je pasivní mód (passive mode)?
+- Co oznaèuje pojem „kanál“ (channel) v bezdrátovıch sítích?
+- Kolik vzájemnì se nepøekrıvajících kanálù lze vyuít v pásmu 2,4 GHz?
+- Co je rogue AP?
+- Co je DoS?
+- Co je MITM?
+- Co je SSID Cloaking?
+- Které z následujících metod vytvoøí bezpeènou sí?
+- Co platí o metodách WPA 2 Personal a Enterprise

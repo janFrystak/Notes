@@ -1,0 +1,24 @@
+datagramová
+rozdìlí na více packetù 
+nevıhody - duplikace, ztráta, trochu vìtší velikost souborù, kadı packedt má v hlavì adresu
+vıhody - linka není úplnì zabraná
+
+seriovì orientovaná 
+-všechno se pošle najednou, zabırá celou linku dokud se neposílá
+
+bandwith - mnoství dat posílanı linkou
+ goodput - monı poèet dat posílanı zaøízením
+throughtput  - opravdovı poèet dat posílanı zaøízením
+jitter - outside intergerence
+latency - spodìní od inputu
+agregace - mnoství dalších zaøízení pøipojenıch na sí
+FUP - limit na poslané data
+download - stahovaní dat z internetu
+upload - nahrávání dat na internet
+
+DSL- DSL/xDSL
+bezdrátová - Wi-fi
+kabel - optika
+mobilní sítì - sítì mobilních operátorù
+
+Sergey, Boot Licklicher, Bernes Lee, 

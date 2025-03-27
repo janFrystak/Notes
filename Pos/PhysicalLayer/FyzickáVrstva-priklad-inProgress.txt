@@ -1,0 +1,19 @@
+1.
+
+1.Bitová synchronizace
+	-Príjemce a odesílatel musí vìdìt kdy "jeden bit v signálu zaèíná a konèí"
+
+2.Kódování 
+		-pøevod bitù na signál
+		-4B5B, Manchester, NRZ
+
+3.Signalizace
+		-jak ten signál zobrazí 0 a 1	
+		
+
+1.Bitová synchronizace
+	-Príjemce a odesílatel musí vìdìt kdy "jeden bit v signálu zaèíná a konèí"
+
+Definice parametrù rozhraní
+	-Standarty konektorù
+

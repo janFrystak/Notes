@@ -1,0 +1,21 @@
+1. ARPANET, aby nemìla žádný centální poèítaè, každý poèítaè mùže pracovat bez závislosti na jiný
+2. 	DNS
+	TCP
+	IP
+	FTP
+	e-mail
+	WWW - CERN, 1990
+3.1972
+4.kalkulace a vojenské na komunikace(komerèní, firemní)
+5.ARPA, 
+6. 	Tim Berners-Lee - zakladatel www
+	Vinton Cerf - Vedoucí projektu ARPANET
+	Joseph Licklider - psyhcolog a informatiki, pracoval na ARPANET
+	Larry Page -
+			- Tvùrci a zakladatelé googlu
+	Sergey Brin -
+7.ISO, W3C
+8. 1990 - EARN/Bitnet
+9.World Bank - 1992 - 1mil. pøipojených poèítaèù
+10. 1974/1998 - byl to fulltextový prohlížeè, používal odkazy mezi stránkamy pro hodnocení relevance stránek
+   

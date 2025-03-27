@@ -1,0 +1,20 @@
+interface vlan xx
+ip adress ...
+no shutdown
+
+exit
+ip default-gateway xxx.xxx.xxx.xxx
+
+
+
+	duplex:
+int FastEthernet x/x
+duplex full
+speed 100
+
+
+
+	mdix:
+mdix auto
+
+

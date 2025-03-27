@@ -1,0 +1,18 @@
+Routing - RIP
+
+-V kadém kroku smìrovaè pošle svoji tabulku sousedu
+
+"
+Pøedpokládáme, e pokud:
+RB je pøímı soused smìrovaèe RA,
+RB umí datagram do nìjaké sítì S doruèit na N pøeskokù (vzdálenost RB od sítì S je N),
+pak RA umí datagram doruèit do sítì S na N+1 pøeskokù (vzdálenost RA od sítì S je N+1),
+RA má jako next hop uveden RB.
+Pokud má smìrovaè na vıbìr více cest, vybere si nìkterou z nejkratších cest (stejnì dlouhıch cest mùe bıt také více).
+Analogie „ze ivota“
+V kadém mìstì bydlí pošák.
+Pošák v Uherském Hradišti má zapsáno, e jeho vzdálenost do Kunovic je 1 krok (je to sousední mìsto).
+Rozešle smìrovací tabulku svım sousedùm v Bílovicích, Starém Mìstì a Kunovicích.
+Pošák v Bílovicích si zapíše, e jeho vzdálenost od Kunovic je 2 a e dopisy do Kunovic má dovézt sousedovi v Uherském Hradišti, kterı je umí doruèit na vzdálenost 1. ;)
+"
+

@@ -1,0 +1,56 @@
+Frekvenèní pásma
+
+-2,4 GHz
+-5 GHz
+-6 GHz (bezdrátové sítì)
+
+
+-ostatní jsou potøeba licence - ÈTÚ (Èeskı telekomunikaèní úøad)
+
+	Vliv Frekvence
+	-Vyšší frekvence
+		+Vyšší pøenostná rychlost
+		-Více odrazù -> vyšší ztráty
+		-Mensí dosah
+		-Draší hardware
+
+	Modulace a multiplex
+		-Analogová
+			-AM
+			-FM
+			-PM
+		-Digitální
+			-QAM64
+			-QAM254
+			-QAM1024
+		-Spread-spectrum
+			-DSSS
+			-FHSS
+
+	MIMO
+	-kadá anténa mùe mít vlastní datovı tok
+	MU-MIMO
+	-kadı tento tok mùe komunikovat s jinım zaøízením
+CSMA/CA
+-1.Stanice vyšílá RTS
+-2.AP odpovídá s CTS
+ -øíká jak dlouho smı vysílat, ádná jiná stanice v té dobì nevysílá
+
+
+IEEE 802.
+-Pan (.15)
+-LAN (.11)
+-MAN (.11;.16)
+-WAN (GSM, CDMA
+-IoT (ZigBee 802.15.4)
+
+Wi-Fi Mesh
+
+-propojení nìkoliká sítí aby fungovaly jako jedna
++mùeme ovládat a mìnit bezpeènostní nastavení z jednoho centrálního zaøízení
++controller sítì zajištuje e si sítì rozdìlí frekvenèní pásma efektrivnì
++monost pøepojit (handover) zaøízení fyzicky se pohybující v sítì k blišímu AP
++AP mùou by propojeny i bezdrátovì
++monost rošíøit sí dokoupením více zaøízení
+	-jinı vırobci spolu vìtšinou nefungují
+-menší monost nastavení, controler si hromadu nastaví sám

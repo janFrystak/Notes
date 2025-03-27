@@ -1,0 +1,7 @@
+Úkoly vrstev 2
+
+7.Aplikaèní vrstva
+-protokoly, skuteèné potøeby uživatele/aplikace
+-napø. DNS, HTTP
+
+6. 5. Prezentaèní a relaèní vrsva

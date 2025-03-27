@@ -1,0 +1,61 @@
+Linková vrstva - pøedávání dat
+¨
+import IP;
+import MAC;
+import defaultGateWay;
+
+//I need these
+final private int myIP = x;
+final private int myMAC = x;
+final private int defaultGateWay = x;
+
+//I get
+int endIP = datagram.ip;
+int endMAC; 
+
+public EndDevice(){
+	if (inNetwork(endIP) {
+		uMAC = useARP(endIP);
+		//Použiji ARP na zjištìní MAC adresy cílového zaøízení
+	
+		sendDatagram(endIP, endMAC);
+	}
+	else-if (!inNetwork(uIP) {
+		defaultGateWay(true);
+		//zprozdøedkuju default gateway
+
+		useARP(defaultGateWay);
+		sendDatagram(defaultGateWay);
+	}
+}
+----------------------------------------------------------
+import RoutingTable;
+
+RoutingTable routingTable = new RoutingTable();
+List<int> netWorkdIps = new ArrayList<>();
+List<portint> myPorts = new ArrayList<>();
+//posrts have assigned numbers not just the Gi0/0/0
+List<int> myMACs = new ArrayList<>();
+
+int endIP = datagram.getIP();
+int endMAC; 
+int neighbourIP;
+int neighbour MAC;
+
+public Ruter(){
+	if (inMyNetwork(endIP){
+		endMAC = useARP(endIP);
+		sendDatagram(endIP, endMAC);
+	}
+	else-if (!inMyNetwork(endIP){
+		neighbourIP = routingTable.getNeighbourIP();
+		//Použij smìrovací tabulku k nalezení IP adresy nejbližšího souseda na cestì k cíli.
+
+		neighbourMAC = routingTable.getNeighbourMAC();
+		//Použij ARP pro zjištìní MAC adresy nejbližšího souseda na cestì k cíli.
+
+		sendDatagram(neighbourIP, neighbourMAC);
+	}	
+
+	
+}

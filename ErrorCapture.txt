@@ -1,0 +1,37 @@
+Error Correctio
+String odesílatel = send
+String pøíjemce = receive
+
+1.send a receive musí vìdìt že používají nìjaký kontrolní mechanismus
+2.send pošle s datmi i kontrolní posloupnost
+3.receive kontroluje zda received data jsou podle posloupnosti, pokud ne, došlo k chybì pøi pøenosu.
+
+Nikdy nevíme na 100% , že nedošlo k chybì, žádný mechanizmus není perfektní.
+----------------------------------------------
+
+Pøíklady kódu pro zajištìní proti chybám
+
+CRC kódy
+-velká skupina, s podobnými vlastnostmi
+-známe CRC32 (Ethernet na linkové vr)
+-neumí zprávu opravit
+
+Hammingovy kódy
+-pøi malém poškození dokáže zprávy i opravit
+----------------------------------------------
+
+Parita
+-CRC1, znadno se poèítá
+-nepoužívané v sítích (slabé)
+-ke stanovenému poètu datových bitù jeden paritní bit
+	-lichá parita - celkový poèet jednièek(vèetnì parity) je lichý 
+	-sudá parita  - celkový poèet jednièek(vèetnì parity) je sudyý
+----------------------------------------------
+
+Zabezpeèení s CRC1
+-send pøipne Paritní bity ke každým X bitùm
+	- lichý nebo sudý
+
+Ovìøení s CRC1
+-receive zkontroluje zda posloupnost dodržuje stanovené pravidlo
+-pokud jsou data požkozeny, zahodí a vyžádá je znova

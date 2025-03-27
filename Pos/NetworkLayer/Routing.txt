@@ -1,0 +1,42 @@
+Routing
+
+http://mis.e-mis.cz/index.php/Sm%C4%9Brov%C3%A1n%C3%AD
+
+-používá se smìrovací tabulka
+-pokud se nepodaøilo najít next-hop na žádné síti, pošleme na default gateway (nìkdy)
+
+
+Vytváøení routing tabulky
+
+http://mis.e-mis.cz/index.php/Sm%C4%9Brovac%C3%AD_protokoly
+
+1.Staticky
+-smìrovací tabulka je vytvoøena správcem sítì
+	-mùže je navrhnout aby byla více optimalizovaná vùèi dostupným prostøedkùm
+	-ve vìtších sítím velká šance chyby, nemùže reagovat na výpadek sítì
+
+2.Dinamicky
+-použijeme nìkterý smìrovací protokol
+	-odolné proti výpadku
+	-bere nìjaký výpoèetní výkon
+	
+-protokoly:
+
+	RIP
+		-Starý
+		-Jednoduchý
+		-Pomalý pøi výpadu
+		-Pro malé sítì
+		-Nebuduje model celé sítì, pouze aby bylo možné vybírat nejkratší cestu
+
+	OSPF(Open Shortest Path First)
+
+		-"Moderní"
+		-Nároènìjší než RIP
+		-Vìtší objem dat
+		-Pro vìtší sítì
+		-Buduje model celé sítì
+		-Rychlejší pøi zmìnì
+
+	BGP(border gateway protocol)
+		-pro operátory a mezinárodní datové linky

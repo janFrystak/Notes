@@ -1,0 +1,49 @@
+cross-over - náhrada switche
+
+názvy kroucených kabelù
+
+X/YTC
+-X/Y = U(unshieldet), S(shieldet), F(foiled)
+-X = celý kabel
+-Y = jednotlicé páry
+
+TP kebly
+ 
+5E
+-1Gb/s (šíøka pásma 100 MHz)
+
+6A
+-10Gb/s (šíøka pásma 500 MHz)
+
+
+Typy médií
+
+Metalické
+-copper
+-UTP, STP, FTP, S/FTP
+
++lze omezit ruchot
++stabilní rychlosti
+_jednoduší montáž
++ útoèník se musí fyzicky pøipojit
+
+
+Optická(fiber)
+-signál(vlastnosti svìtla)
+
++vysoké pøenosové rychlosti
++nulové rušení
++minimální ztráty signálu pøes vzdálenosti
++lehèí
++levnìjší na delší vzdálenosti
+-nároèná montáž
+
+Bezdrátový
+-médiem je prostøedí, kterým se signál šíøí
+
++není potøeba fyzické instalace média
+-spoleèné médium pro všechen provoz, nutno limitovat
+-útoèník nemusí být na místì
+-kratší dosah
+
+

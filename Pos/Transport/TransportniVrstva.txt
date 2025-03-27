@@ -1,0 +1,32 @@
+Transportní vrstva
+
+Socket a èíslo portu
+http://mis.e-mis.cz/index.php?title=Socket_a_%C4%8D%C3%ADslo_portu
+Scoket = ip adresa + port
+Rozdìlení èísel portù - 0-1023, 1024-49151, 49152-65535
+
+TCP a UDP
+http://mis.e-mis.cz/index.php/TCP_a_UDP
+
+Porty
+http://mis.e-mis.cz/index.php/Protokoly_aplika%C4%8Dn%C3%AD_vrstvy
+:(
+
+Navazování spojení
+http://mis.e-mis.cz/index.php/Navazov%C3%A1n%C3%AD_spojen%C3%AD
+
+Three-way handshake - 	Žádost o otevøení/uzavøení spojení
+			Potvrzení pøipravenosti partnera
+			Schválení otevøení/uzavøení
+
+TCP -	SYN... „Synchronize“ ... „Chci zaèít komunikovat“		-
+	ACK... „Acknowledge“ ... „Potvrzuji pøedchozí požadavek“	-Hodnota 0 nebo 1
+	FIN... „Finalize“ ... „Jsem hotov, chci ukonèit spojení“	-
+
+SYN flood - posílání požadavkù SYN ale nepotvrzování pomocí ACK
+
+Èíslování datagramù
+http://mis.e-mis.cz/index.php/%C4%8C%C3%ADslov%C3%A1n%C3%AD_datagram%C5%AF
+hlavièka TCP segmentu - Sequence Number(poøadové èíslo prvního oktetu segmentu)
+			Acknowledgement Number(poøadové èíslo dalšího okteru, který oèekávám od partnera)
+			Window - poèet okterù, které lze odeslat pøedtím, než budou další data potvrzena

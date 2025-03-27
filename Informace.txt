@@ -1,0 +1,71 @@
+Informace - vztah mezi objekty, prejevující se zmìnami tìchto objektù
+
+Signál 	- fyzikální velièina, nositel informace
+	- velikost elektrického napìtí mezi vodièi
+	- frekvence zmìny -||-
+	- intenzita svìtla 
+
+Kódování 	- pro pøevod informací, nutno zakódovat
+		- proces pøi kterém vzniká zpráva
+		- soubor pravidel podle kterých zpráva vzniká
+
+
+Pravdìpodobnost a informatika
+I(x) = -log2 p(x)
+
+
+Jednotky množství infomrace
+1 kB = 1000 B
+1 KB = 1 KiB = 210 B = 1024 B
+1 MB = 1 MiB = 220 B = 210 KB ~ 1 mil. B
+1 GB = 1 GiB = 230 B = 210 MB ~ 109 B
+1 TB = 1 TiB = 240 B = 210 GB ~ 1012 B (èti „terabajt“)
+1 PB = 1 PiB = 250 B = 210 TB ~ 1015 B (èti „petabajt“)
+1 EB = 1 EiB = 260 B = 210 PB ~ 1018 B (èti „exabajt“)
+
+Varianty pøenosu dat
+
+Simplex	{
+	<--data--
+	--potvrzení/nic-->
+	}
+	-televizní vysílání
+	-GPS
+Half-duplex	{
+		<--data--
+		    /								//-pouze jedno visílání v jakíkoliv èas
+		--data-->
+		}
+		-koaxiální
+		-Vysílaèka
+		
+Full-duples	{
+		<--data--
+		--data-->
+		}
+
+Multiplex
+-pøenos kde jednu linku využívá více souèasnì probíhajících pøenosù
+
+	Èasový multiplex
+		-každý pøenos se støídá v èasových úsecích
+		
+	Frekvenèní muliplex
+		-Kapacitu linky rozdìlíme na pøenosové cesty s menší kapacitou
+		-Opravdu bìží paralelnì, ale s omezenou pøenosovou rychlostí
+
+Synchronozace
+-pøi komunikaci musí obì strany vìdìt, kdy zaèíná a konèí pøenos jednoho znaku
+
+	-Synchroníí pøenos
+		-pøi propojení odes. a pøíjm. provedou synchronizaci a tu udrží po dobì propojení	
+		-vysíláme pouze v bitových intervalech
+
+	-Arytmický pøenos
+		-synchronizují se až když chtìjí odeslat data
+		-odes. mùže zaèít odesílat kdykoliv
+		-konstantní délka bitového intervalu
+		
+	-Asynchronní pøenos
+		-Každý znak(bit) je ohranièen
+		-Délka bitového intervalu se mùže lišit

@@ -1,0 +1,46 @@
+! R1
+!
+en								-enable
+conf t     							-configuration mode on
+hostname R1							-rename to R1
+no ip domain-lookup
+service password-encryption
+enable secret cisco
+banner motd "Access restricted!"
+!
+ip domain-name netacad.local
+crypto key generate rsa general-keys modulus 2048
+user cisco secret ciscocisco
+ip ssh version 2
+!
+line con 0
+logging synchronous
+password cisco
+login
+!
+line vry 0 4
+transport input shh
+login local
+!
+int Gi0/0/0
+description Net1
+ip address 192.168.1.254 255.255.255.0
+no shutdown
+!
+int Se/0/1/0
+description R1-R2
+ip address 192.168.0.1 255.255.255.252
+clock rate 128000
+no shutdown
+!
+router rip
+version 2
+no auto-summary
+network 192.168.0.0
+network 192.168.1.0
+passive-interface Gi0/0/0
+
+do sh ip int bri
+exit end 
+
+wr
