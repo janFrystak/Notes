@@ -1,0 +1,64 @@
+El. podpis
+- http://mis.e-mis.cz/index.php/Elektronick%C3%BD_podpis
+- http://mis.e-mis.cz/index.php/Certifika%C4%8Dn%C3%AD_autorita
+-http://mis.e-mis.cz/index.php/Certifik%C3%A1t_elektronick%C3%A9ho_podpisu
+
+1.elektronickı podpis
+	-a. Elektrickı podpis - podpis uloenı elektronicky
+	-b. Zaruèenı Elektrickı podpis - el. podpis zaloenı na certifikátu
+	-c. Uznávanı Elektronickı podpis - zaloenı na certifikátu, uznávanı úøady 
+
+2.digitální podpis
+	-v legistativì nepouívanı
+	- synymum pr zaruèenı el. podpis
+
+
+Zaruèenı el. podpis
+CAN:
+	-Neporušenost dokumentù (Intengrita, Autentiènost)
+	-Identifikaci podepisující se osoby
+	-Nepopíratelnost podpisu
+	-Právní uznání
+	-Existence podpisu v daném èase
+
+CAN'T:
+	-Dùvìrnost (k textu se mùe dostan nìkdo jinı)
+	-Authorizace
+
+Èasové razítko
+	-potvrzuje existenci dokumentu v daném èase
+
+Elektronická znaèka
+	-Podpis stroje nebo organizace (server, právnická osoba)
+
+
+
+  Cetifikaèní autorita
+
+-Tøetí strana(organizace), které obì strany dùvìøují
+-Ovìøuje pravost veøej. klíèe (platnost certifikátu el. podpisu)
+-Vystavuje certifikáty el. podpisu
+
+-ovìøuje indentitu adatele o vystavení certifikátu
+-uloí adatelùv veøejnı klíè do budoucna
+-pøi dotazu zkontroluje správnost veøejného klíèe
+-revokaci certifikátu
+
+Revokace cer.
+-zneplatní cert.
+
+
+moné nebezpeèí:
+-pokud útoèník je schopen mìnit obsah ostatních zpráv jak víme e nezmìnil otátku na cert. au.
+-musí bıt opìt el. podepsána
+	-veøejnı klíè se ji nachází na windows operaèním systému (nìkteré aplikace ukládají vlastní)
+	-lze pøidat další ale má ryzika
+		-menší cert. au. si cert. nechávají podepsat vìšími (sí dùvìry) (Public Key Infrastructure)
+ 
+	
+	Certifikát elektronického podpisu
+
+Certifikát
+-soubor obsahující veøejnı klíè a údaje pro ovìøení jeho vlastníka
+-
+ 
